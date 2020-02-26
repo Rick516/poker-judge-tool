@@ -1,0 +1,10 @@
+<%= render 'form' %>
+<div class="error_message">
+    <% if @card.errors %>
+    <ul>
+        <% @card.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+        <% end %>
+    </ul>
+    <% end %>
+</div>
