@@ -41,7 +41,7 @@ class Card
 	end
 
 	def count_same_number()
-		@number_set = @numbers.group_by{|n|n}.map(&:size).sort.reverse
+		@number_set = @numbers.group_by{|n|n}.map{|k,v|v.size}.sort.reverse
 	end
 
 	def straight?()
@@ -71,13 +71,13 @@ class Card
 			@hand = POKER_HANDS[4]
 		elsif @number_set == [4,1]
 			@hand = POKER_HANDS[7]
-		elsif @number_set == [3, 2]
+		elsif @number_set == [3,2]
 			@hand = POKER_HANDS[6]
-		elsif @number_set == [3, 1, 1]
+		elsif @number_set == [3,1,1]
 			@hand = POKER_HANDS[3]
-		elsif @number_set == [2, 2, 1]
+		elsif @number_set == [2,2,1]
 			@hand = POKER_HANDS[2]
-		elsif @number_set == [2, 1, 1, 1]
+		elsif @number_set == [2,1,1,1]
 			@hand = POKER_HANDS[1]
 		else
 			@hand = POKER_HANDS[0]
