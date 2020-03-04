@@ -1,15 +1,15 @@
 class CardsController < ApplicationController
-
+    include JudgeService
     def top
-        @card = Card.new
-        # インスタンス変数はビューでも参照できる
+        @card = JudgeCard.new
+
     end
 
     def result
     end
 
     def check
-        @card = Card.new(card_params)
+        @card = JudgeCard.new(card_params)
         if @card.valid?
             @card.judge_role
             render :result
@@ -20,9 +20,9 @@ class CardsController < ApplicationController
 
     def error 
     end
-        
+
     private
     def card_params
-        params.require(:card).permit(:card_set)
+        params.permit(:card_set)
     end
 end

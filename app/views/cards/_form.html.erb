@@ -1,6 +1,6 @@
 <div class="form-group">
-    <%= form_with url: '/cards/check', method: :post, model: @card, data: {remote: false}, class: 'form' do |form| %>
-        <p><%= form.text_field :card_set, class: 'cards', placeholder: 'S10 H11 D12 C13 H1' %></p>
+    <%= form_with url: '/cards/check', method: :post, data: {remote: false}, class: 'form' do |form| %>
+        <p><%= form.text_field :card_set, class: 'cards', placeholder: 'S10 H11 D12 C13 H1', value: (params[:card_set] if params[:card_set]) %></p>
         <p><%= form.submit value: 'Check' ,class: 'check btn btn-warning'%></p>
     <% end %>
 </div>

@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   get 'cards/check', to: 'cards#top'
   get 'cards/result', to: 'cards#result'
   get 'cards/error', to: 'cards#error'
-  # 順番大事
 end
