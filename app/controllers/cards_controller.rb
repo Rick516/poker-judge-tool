@@ -1,11 +1,8 @@
 class CardsController < ApplicationController
     include JudgeService
+    
     def top
         @card = JudgeCard.new
-
-    end
-
-    def result
     end
 
     def check
@@ -18,10 +15,8 @@ class CardsController < ApplicationController
         end
     end
 
-    def error 
-    end
-
     private
+
     def card_params
         params.permit(:card_set)
     end

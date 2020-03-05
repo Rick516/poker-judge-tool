@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get '/cards', to: 'cards#top'
   post 'cards/check', to: 'cards#check'
   get 'cards/check', to: 'cards#top'
-  get 'cards/result', to: 'cards#result'
-  get 'cards/error', to: 'cards#error'
+  get 'cards/result', to: 'cards#top'
+  get 'cards/error', to: 'cards#top'
 end
