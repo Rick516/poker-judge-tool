@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+@import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+body {
+    background-image: image-url("/assets/images/cards-1030852_1280.jpg");
+    height: 800px;
+    background-size: cover;
+}
+
+.wrap {
+    width: 600px;
+    margin: auto;
+    color: #323232;
+    
+}
+
+.header {
+    clear: both;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+
+.contents {
+    height: 370px;
+    background-color: rgba(240, 240, 240,0.9);
+    border-radius: 12px;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form {
+    text-align: center;
+    font-size: 2.0rem;
+    text-align: start;
+    background-color: -internal-light-dark-color(white, black);
+    cursor: text;
+    margin: 0em;
+    font: 400 11px;
+}
+
+.cards {
+    margin-top: 48px;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.check {
+    background-color: #8D6E63;
+    color: #FFF;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 8px 16px;
+    border: none;
+    width: 300px;
+
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.error_message {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 20px 20px 10px 0px; 
+    width: 350px;
+    background-color: #EF9A9A;
+    color: #222;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    text-align: center;
+
+    ul {
+        list-style: none;
+    }
+}
