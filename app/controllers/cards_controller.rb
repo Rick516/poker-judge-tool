@@ -9,9 +9,9 @@ class CardsController < ApplicationController
         @card = JudgeCard.new(card_params)
         if @card.valid?
             @card.judge_role
-            render :result
+            render :result, :sstatus => 200
         else 
-            render :error
+            render :error, :status => 200
         end
     end
 
