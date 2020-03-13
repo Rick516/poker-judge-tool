@@ -24,18 +24,15 @@ module API
 
                         # 配列cardsの要素それぞれのstrengthをstringで返す
                         for card in @cards do
-                            if card.validate_card_set == nil
+                            if card.validate_api == nil
                                 card.judge_strength
-                            else 
-                                @error_api
+                            else
+                                return {"error": card.validate_api}
+                                next
                             end
                         end
-
-                        JudgeService::JudgeCard.judge_best(@cards)
                         
-                        
-
-                        
+                        JudgeService::JudgeCard.judge_best(@cards)                        
                     end
                 end      
             end
