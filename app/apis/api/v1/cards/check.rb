@@ -23,9 +23,9 @@ module API
                         cards.each do |card|
                             card.judge_strength
                         end
-                        # 最も強い手札ににのみbest = true, 
+                        # 最も強い手札にのみbest = true, 
                         JudgeService::JudgeCard.judge_best(cards)    
-                        # jsonで結果を返し、無効な入力に対して該当箇所のerrorとmsgを返す  
+
                     end
                 end      
             end

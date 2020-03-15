@@ -77,13 +77,15 @@ module JudgeService
                 else
                     cards[i].best = false
                 end
-                result.push({
-                    "card": cards[i].card_set,
-                    "hand": cards[i].hand,
-                    "best": cards[i].best
-                    })
-                if cards[i].validate_card_set != nil
-                    error.push({
+                
+                if cards[i].validate_card_set == nil
+                    result << ({
+                        "card": cards[i].card_set,
+                        "hand": cards[i].hand,
+                        "best": cards[i].best
+                        })
+                else
+                    error << ({
                         "card": cards[i].card_set,
                         "msg": cards[i].err_msg
                     })
