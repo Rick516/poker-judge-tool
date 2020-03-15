@@ -23,9 +23,8 @@ module API
                         cards.each do |card|
                             card.judge_strength
                         end
-                        # 最も強い手札にのみbest = true, 
+                        # 最も強い手札ににのみbest = true, 
                         JudgeService::JudgeCard.judge_best(cards)    
-
                     end
                 end      
             end

@@ -7,7 +7,7 @@ module JudgeService
         attr_reader :hand, :cards, :strength, :result, :hashed_result, :err_msg
 
         def judge_role
-            # split cardset
+            # card_setをカード毎に配列の要素として分割
             @cards = card_set.split(" ")
             suits = []
             numbers = []
@@ -15,23 +15,23 @@ module JudgeService
                 suits.push card[0]
                 numbers.push card[1..-1].to_i
             end
-            # check_straight
+            # ストレートを判定
             steps = numbers.sort.map{|n|n - numbers[0]}
             if steps == [0,1,2,3,4] || steps == [0,9,10,11,12]
                 straight = true
             else
                 straight = false
             end
-            # check flush
+            # フラッシュを判定
             suit_set = suits.uniq.size
             if suit_set == 1
                 flush = true
             else
                 flush = false
             end
-            # count same numbers
+            # 重複したnumbersの数を数える
             number_set = numbers.group_by{|n|n}.map{|k,v|v.size}.sort.reverse
-            # judge hands
+            # 役の判定
             if straight == true && flush == true
                 @hand = STRAIGHT_FLUSH
             elsif straight == false && flush == true
@@ -55,12 +55,13 @@ module JudgeService
                 end
             end
         end
-        
+
+        # 強さを判定
         def judge_strength
             judge_role 
             @strength = HANDS_STRENGTH.index(@hand) 
         end
-    
+        # 最も強い手札を判定して、jsonでresultとerrorを返す
         def self.judge_best(cards)
             scores = []
         
@@ -93,7 +94,6 @@ module JudgeService
             end
 
             hashed_result = {"result": result}
-            # if invalid, "error" into hashed_result
             cards.map{ |card|
                 if card.validate_card_set != nil
                     hashed_result.store("error", error)
@@ -102,7 +102,7 @@ module JudgeService
             
             return hashed_result
         end
- 
+
         validate :validate_card_set
 
         def validate_card_set
