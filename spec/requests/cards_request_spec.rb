@@ -52,11 +52,11 @@ RSpec.describe "Check", type: :request do
                 post "/api/v1/check", params: cards
             end
 
-            it "リクエストは404 Not Foundとなる" do
+            it "不正なリクエストは404 Not Foundとなる" do
                 expect(response.status).to eq 404
             end
 
-            it "期待するエラーメッセージが格納されていること" do
+            it "エラーメッセージを返す" do
                 json_body = JSON.parse(response.body)
                 expect(json_body["error"]).to eq "404 Not Found：指定されたURLは存在しません"
             end
