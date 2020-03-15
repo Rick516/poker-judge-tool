@@ -13,7 +13,7 @@ module ConstantsService
     FULLHOUSE = "フルハウス"
     FOUR_OF_A_KIND = "フォー・オブ・ア・カインド"
     STRAIGHT_FLUSH = "ストレートフラッシュ"
+
+    HANDS_STRENGTH = ["ハイ・カード", "ワンペア", "ツーペア", "スリー・オブ・ア・カインド", "ストレート", "フラッシュ", "フルハウス", "フォー・オブ・ア・カインド","ストレートフラッシュ"]
 end
-
-
 

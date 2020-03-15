@@ -41,6 +41,10 @@ gem 'font-awesome-sass', '~> 5.4.1'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'grape'
+gem 'grape-jbuilder'
+gem "hashie"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

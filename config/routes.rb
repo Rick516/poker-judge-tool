@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'cards/check', to: 'cards#top'
   get 'cards/result', to: 'cards#top'
   get 'cards/error', to: 'cards#top'
+
+  mount API::Base => '/'
 end

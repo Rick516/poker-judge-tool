@@ -12,6 +12,9 @@ RSpec.describe CardsController, type: :controller do
         it ':topテンプレートを表示する' do
             expect(response).to render_template :top
         end
+        it 'ステータスコードが200 OKとなる' do
+            expect(response.status).to eq 200
+        end
     end
 
     describe 'Post #check' do
@@ -22,8 +25,11 @@ RSpec.describe CardsController, type: :controller do
                 card_set = 'C7 C6 C5 C4 C3'
                 post :check, params: { card_set: card_set }
             end
-            it ':resultテンプレートを表示すること' do
+            it ':resultテンプレートを表示する' do
                 expect(response).to render_template :result
+            end
+            it 'ステータスコードが200 OKとなる' do
+                expect(response.status).to eq 200
             end
         end
 
@@ -32,8 +38,11 @@ RSpec.describe CardsController, type: :controller do
                 card_set = ''
                 post :check, params: {card_set: card_set}
             end
-            it ':errorテンプレートを表示すること' do
+            it ':errorテンプレートを表示する' do
                 expect(response).to render_template :error
+            end
+            it 'ステータスコードが200 OKとなる' do
+                expect(response.status).to eq 200
             end
         end
     end

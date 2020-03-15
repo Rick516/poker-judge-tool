@@ -9,43 +9,43 @@ RSpec.describe JudgeService do
             end
         end
         context 'S,H,D,Cと1..13からなるカード6枚以上で手札が構成されている場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'C7 C6 C5 C4 C3 C2')
                 expect(card).not_to be_valid
             end
         end
         context 'S,H,D,Cと1..13からなるカード1枚以上4枚以下で手札が構成されている場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'C7 C6 C5 C4')
                 expect(card).not_to be_valid
             end
         end
         context '手札にカードが一枚も存在しない場合' do
-            it '手札が無効である' do
+            it 'ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: "")
                 expect(card).not_to be_valid
             end
         end
         context '手札を仕切るスペースが連続している場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'C7  C6 C5 C4 C3')
                 expect(card).not_to be_valid
             end
         end
         context '手札がスペース以外で仕切られている場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'C7,C6,C5,C4,C3')
                 expect(card).not_to be_valid
             end
         end
         context 'S,H,D,C以外と1..13からなるカードで手札が構成されている場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'A7 C6 C5 C4 C3')
                 expect(card).not_to be_valid
             end
         end
         context 'S,H,D,Cと1..13以外からなるカードで手札が構成されている場合' do
-            it '手札が無効である' do
+            it 'INDEX_ERR_MSGが表示される' do
                 card = JudgeService::JudgeCard.new(card_set: 'C14 C6 C5 C4 C3')
                 expect(card).not_to be_valid
             end
