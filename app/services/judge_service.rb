@@ -4,9 +4,7 @@ module JudgeService
         require 'constants_service'
         include ConstantsService
         attr_accessor :card_set, :best
-        attr_reader :hand, :cards, :strength, :result, :hashed_result
-
-        
+        attr_reader :hand, :cards, :strength, :result, :hashed_result, :err_msg
 
         def judge_role
             # split cardset
@@ -60,7 +58,7 @@ module JudgeService
         
         def judge_strength
             judge_role 
-            @strength = HANDS_STRENGTH.index(@hand)
+            @strength = HANDS_STRENGTH.index(@hand) 
         end
     
         def self.judge_best(cards)
@@ -71,54 +69,53 @@ module JudgeService
             end
         
             high_score =  scores.max
-
-            for i in 0..(cards.length-1) do
+            result = []
+            error = []
+            (0..cards.length-1).each do |i|
                 if cards[i].strength == high_score
                     cards[i].best = true
                 else
                     cards[i].best = false
                 end
-            end
-
-            result = []
-            for i in 0..cards.length-1 do 
                 result.push({
                     "card": cards[i].card_set,
                     "hand": cards[i].hand,
                     "best": cards[i].best
                     })
+                if cards[i].validate_card_set != nil
+                    error.push({
+                        "card": cards[i].card_set,
+                        "msg": cards[i].err_msg
+                    })
+                end
             end
 
-            hashed_result = {
-                "result": result,
+            hashed_result = {"result": result}
+            # if invalid, "error" into hashed_result
+            cards.map{ |card|
+                if card.validate_card_set != nil
+                    hashed_result.store("error", error)
+                end
             }
+            
             return hashed_result
         end
-
+ 
         validate :validate_card_set
 
         def validate_card_set
             if card_set.blank?
                 errors[:base] << ERR_MSG
+                @err_msg = ERR_MSG
             elsif card_set.match(VALID_REGEX).nil?
                 rgx_set = card_set.split.reject{|r|r.match(/\A[SHDC]([1-9]|1[0-3])\z/)}
                 rgx_idx = card_set.split.index(rgx_set[0]).to_i + 1
                 errors[:base] << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[0] } )"
                 errors[:base] << ERR_MSG
+                @err_msg = " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[0] } )" +  ERR_MSG
             elsif card_set.split.size > card_set.split.uniq.size
                 errors[:base] << IDENTICAL_ERR
-            end
-        end 
-
-        def validate_api
-            if card_set.blank?
-                @error = ERR_MSG
-            elsif card_set.match(VALID_REGEX).nil?
-                rgx_set = card_set.split.reject{|r|r.match(/\A[SHDC]([1-9]|1[0-3])\z/)}
-                rgx_idx = card_set.split.index(rgx_set[0]).to_i + 1
-                @error = " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[0] } )" + ERR_MSG
-            elsif card_set.split.size > card_set.split.uniq.size
-                @error = IDENTICAL_ERR
+                @err_msg = IDENTICAL_ERR
             end
         end
     end

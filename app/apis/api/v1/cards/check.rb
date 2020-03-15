@@ -13,26 +13,19 @@ module API
                     post :check, 'cards/check' do
                         # 配列card_setsを定義しparamsを代入
                         card_sets = params[:cards]
-            
                         # 配列cardsを定義しJudgeCardをnewして代入
                         @cards = []
-
                         # cardsetを配列として代入
                         card_sets.each do |card_set|
                             @cards.push JudgeService::JudgeCard.new(card_set: card_set)
                         end
-
-                        # 配列cardsの要素それぞれのstrengthをstringで返す
-                        for card in @cards do
-                            if card.validate_api == nil
-                                card.judge_strength
-                            else
-                                return {"error": card.validate_api}
-                                next
-                            end
+                        # 各手札にstrengthを付与する
+                        @cards.each do |card|
+                            card.judge_strength
                         end
-                        
-                        JudgeService::JudgeCard.judge_best(@cards)                        
+                        # 最も強い手札ににのみbest = true, 
+                        JudgeService::JudgeCard.judge_best(@cards)    
+                        # jsonで結果を返し、無効な入力に対して該当箇所のerrorとmsgを返す  
                     end
                 end      
             end
