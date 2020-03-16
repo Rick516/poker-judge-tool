@@ -105,7 +105,6 @@ module JudgeService
 
         validate :validate_card_set
 
-
         def validate_card_set
             @err_msg = []
             if card_set.blank?
