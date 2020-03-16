@@ -1,0 +1,955 @@
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 01:46:56 +0000
+  [1m[35m (5.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 01:47:04 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 01:53:13 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 01:59:54 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:13:07 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:13:14 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:13:19 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:20:21 +0000
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:20:28 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:20:43 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:23:25 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:23:27 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:52 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:53 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:54 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:55 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:56 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:24:56 +0000
+Started GET "/carsd" for 172.18.0.1 at 2020-03-16 02:28:08 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/carsd"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/cards" for 172.18.0.1 at 2020-03-16 02:28:14 +0000
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/top.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 3669ms (Views: 3654.5ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cards-1030852_1280.jpg"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:28:21 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t6vWzLKa+mPnDxebUMf0rrzZumKoMZWhVEvc4iOZQYXxKlJcN9Y5O6ENd6qEfLO5yQrTOa1jPKJ3vTXQA7VHkQ==", "card_set"=>"S1 S2 S3 S4 S5", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/result.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/result.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 311ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:28:25 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XyUxUU6Cat7kRWfPmgB+4vhezKirkVggPasPMPFV2jkZpLXBy86phqJHB/5Ouzn1jY2l867D8SMeXeYC0XncLQ==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 346ms (Views: 343.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:29:14 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:03 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:03 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:04 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:05 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:06 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:08 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:14 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:15 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:16 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:16 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:16 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:17 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:17 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:18 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:18 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:18 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:19 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:19 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:30:44 +0000
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:33:30 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zIrVjKDpE0CfF7MT+z3FptR1Foc7R2tZ7Ga1Ibp5/NSKC1EcJaXQGNkV0yIvhoKxoaZ/3D4VwlrPkFwTmlX6wA==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 283ms (Views: 281.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:33:32 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5MOSUdm48NnDF3I/9hTDa3uxbECIMMQIx2ai5KyB3gaiQhbBXPQzgYUVEg4ir4R8DmIFG41ibQvkkEvWjK3YEg==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 265ms (Views: 263.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:33:32 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bF01XoWdGNErXEcIseQNLx/dWGhX+7JxlsInlCbxjP8q3LHOANHbiW1eJzllX0o4ag4xM1KpG3K1NM6mBt2K6w==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.5ms)
+  Rendered cards/error.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 328ms (Views: 326.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:33:33 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tinWo5e86u9t96r+LhS6D0Ge9/Kze3W/5jJ7pvOWJm8WSPKCxIw8/u1vposAxX/SNUShM+fRNXcbiDcu+JejQ==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 308ms (Views: 306.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:00 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HhfzkmF3SBzYHLow01c1zeNSNHmJUjhLQ5PXue3dr25YlncC5DuLRJ4e2gEH7HLaloFdIowAkUhgZT6LzfGpeg==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 238ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:01 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwgrHu3jIaNh5yY4Zlv9Bj5gzPJwjFWdWHxTINaD9ds1ia+OaK/i+yflRgmy4LoRS7OlqXXe/J57iroS9q/zzw==", "card_set"=>"S1 S2 S3 S4 S5 112 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 243ms (Views: 241.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:03 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QkliVRJAEdm1xPhgBFCWB6Jd0gRU1R0O71+pTyPcSkAEyObFlwzSgfPGmFHQ69EQ1467X1GHtA3MqUB9A/BMVA==", "card_set"=>"S1 S2 S3 S4 S5 112 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 353ms (Views: 350.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:05 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ak3yiUhpGBfpllOAuKg528ZDRvy3BXw9/CgOHi+6OdNEzHYZzSXbT6+UM7FsE37Ms5Avp7JX1T7f3ucsD5Y/xw==", "card_set"=>"S1 S2 S3 S4 S5 12 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 285ms (Views: 283.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:09 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"da1SkCmQdm0+W7hvKpLqONnFl1bY5SEU/Xciv8XKdkAzLNYArNy1NXhZ2F7+Ka0vrBb+Dd23iBfegcuN5eZwVA==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 271ms (Views: 269.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:10 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZQ8hrmSFhoL7MQZIRQFbec1VDgVltliYQzd8L1jDAg0jjqU+4clF2r0zZnmRuhxuuIZnXmDk8ZtgwZUdeO8EGQ==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 276ms (Views: 274.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:10 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/VTBMqcR0q596djJHIusJK+R3Vl2NJF1MSZ7tM428ku71UWiIl0R9jvruPjIMOsz2kK0AnNmOHYS0JKG7hr0Xw==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 265ms (Views: 262.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:35:11 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7R7nZSGqjGc86MKhpr7HxozRF+dplJH756y1x7K10cOrn2P1pOZPP3rqopByBYDR+QJ+vGzGOPjEWlz1kpnX1w==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 295ms (Views: 293.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:38:30 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fgc+VyXSmuhIdgZAGITpyaEu8UtyAlTtPGdL9msksrNQhrrHoJ5ZsA50ZnHMP67e1P2YEHdQ/e4fkaLESwi0pw==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 280ms (Views: 278.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:40:13 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:40:23 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:41:17 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:41:17 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:41:25 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:41:31 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 02:41:54 +0000
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:35 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ywjgD0f3vNL5ARKO5zLMm7ARouImVn2/xp/6jFFdmKtracQuFMdqw3mZHvvJ4wlGxMv0I3L8PXc7JbYEWlwdg==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.5ms)
+  Rendered cards/error.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 243ms (Views: 242.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:42 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWKzJx/dBavlnhN7Ew6DLXE72NRCZpNN6EfViqqI3d0z4ze3mpHG86Occ0rHtcQ6BOixj0c0Ok7LsTy4iqTbyQ==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 312ms (Views: 310.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:43 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZeLNrcHZeJ0UwIxHxIYs1oKwxJxU3PCgJ8ZFvgj6giAjY0k9RJW7xVLC7HYQPWvB92Otx1GOWaMEMKyMKNaENA==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (5.2ms)
+  Rendered cards/error.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 332ms (Views: 330.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:43 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iTylxikxMw4agAlOh6kEdm0OVzxMCkmOBAH2+BliwNDPvSFWrH3wVlyCaX9TEkNhGN0+Z0lY4I0n9x/KOU7GxA==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 334ms (Views: 332.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:44 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WMuxxFJHSSoPAglqolymF4wplTyJ5q9NIqSinv/xAaIeSjVU1wuKckkAaVt25+EA+fr8Z4y0Bk4BUkus390Htg==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 301ms (Views: 299.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:45 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zgPabqBx7Oy7/tAXjerKYzch1YChVk/Ar96u7IL+bbKIgl7+JT0vtP38sCZZUY10QvK826QE5sOMKEfeotJrpg==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 245ms (Views: 243.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 02:45:45 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VTiYUzDF/0WXy6ZhFsGeRKekUvcP2ZGiaZR3qZnIipgTuRzDtYk8HdHJxlDCetlT0nc7rAqLOKFKYp6bueSMjA==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 326ms (Views: 324.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:12:55 +0000
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:13:07 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:09 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:09 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:14 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:18 +0000
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:26 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C2oplPQu1LXsKayYp4DcDVAj0hPWp37OoqojJow3LQdN660EcWIX7aorzKlzO5saJfC7SNP1182BXMoUrBsrEw==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 358ms (Views: 356.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:27 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d2YD2M78qGF+eoyDLZciKZoidFF20FHGid0nj2SBNy0x54dIS7BrOTh47LL5LGU+7/EdCnOC+MWqK869RK0xOQ==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 266ms (Views: 264.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:28 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pLFeNh7+9VE1F99dO2fnRkYjmTRk0Lp80d/gqMOIWfriMNqmm7I2CXMVv2zv3KBRM/Dwb2GCE3/yKQma46Rf7g==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 293ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:28 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xHTCJZhpCsZusXststo1CylGb+Xz33IcP0t3UW0sH1CC9Ua1HSXJniizGxxmYXIcXJUGvvaN2x8cvZ5jTQAZRA==", "card_set"=>"S1１２ S１２2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 355ms (Views: 353.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:30 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YbjtsaDfeQR0ZtpfuJoPfjgtp+VrWAia3FuL3gjf828nOWkhJZO6XDJkum5sIUhpTf7Ovm4KoZn/rWLsKPP1ew==", "card_set"=>"S1１２ S１２2 S3 S4S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 267ms (Views: 265.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:33 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bVEG6zU11BCVj/Fr2gDm1V0/RrFPVKKIScvJwi86r8kr0IJ7sHkXSNONkVoOu6HCKOwv6koGC4tqPSDwDxap3Q==", "card_set"=>"S1１２ S１２2 S35 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 260ms (Views: 258.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:41 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3VmKFc7hQN4o80PRaZV1MxQMUPpopA2C5dRSWbdbX1Wb2A6FS62Dhm7xI+C9LjIkYd85oW32pIHGIrtrl3dZQQ==", "card_set"=>"S1 S2 S3 S4 S5 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 293ms (Views: 290.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:26:44 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5zgeBxPabMNo0gJdYbauLR3ZIk0LflKA107vFiY8xPqhuZqXlpavmy7QYmy1Dek6aApLFg4s+4P0uAYkBhDC7g==", "card_set"=>"S1 S2 S3 S4 S5 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 364ms (Views: 361.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:47 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:47 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:52 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:53 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:53 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:26:55 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:27:00 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:29:22 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:29:22 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:29:23 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:29:23 +0000
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:31:46 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8bEtmOJNP4Utr/mIT5ZRAF0bM3mibUee0drPZn23xoO3MKkIZwH83WutmbmbLRYXKMhaIqc/7p3yLCZUXZvAlw==", "card_set"=>"S1 S2 S3 S4 S5 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 303ms (Views: 300.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:31:46 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l7JmdHCxZH4XIC+6TA0giMDjJ4v1g7rA98cxjZU97nXRM+Lk9f2nJlEiT4uYtmeftTBO0PDRE8PUMdi/tRHoYQ==", "card_set"=>"S1 S2 S3 S4 S5 12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 360ms (Views: 358.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:38:25 +0000
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:40:51 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:40:51 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:40:52 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:41:29 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:41:30 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:41:30 +0000
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:41:49 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, :array
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:14 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:15 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:16 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:16 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:17 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:44:18 +0000
+  
+SyntaxError (/app_name/app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+        attribute :err_msg, array: :integer
+                  ^):
+  
+app/services/judge_service.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/cards_controller.rb:2:in `<class:CardsController>'
+app/controllers/cards_controller.rb:1:in `<top (required)>'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:21 +0000
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (20.8ms)
+  Rendered cards/top.html.erb within layouts/application (34.0ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:23 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/top.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 1926ms (Views: 1912.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 298ms (Views: 285.1ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cards-1030852_1280.jpg"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:26 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jp6WJu/ZpIrocDnjC7BNGyzIY50MmPPa6iS07Ss03yvIHxK2apVn0q5yWdLfCwoMWRsKxgnKWtnJ0l3fCxjZPw==", "card_set"=>"S1 S2 S3 S4 S5", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/result.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/result.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 279ms (Views: 277.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:27 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7IDgYw8iYX+0zwUHHJLrR7LmVhOWXni6qn5eNNTFVYyqAWTzim6iJ/LNZTbIKaxQxzU/SJMM0bmJiLcG9OlTmA==", "card_set"=>"S1 S2 S3 S4 S5", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/result.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/result.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 313ms (Views: 311.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:29 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sFG7DaiVUbjUfv1uGIwNpMQQuiD4OZZlV/bNXwv2Gz320D+dLdmS4JJ8nV/MN0qzscPTe/1rP2Z0ACRtK9odKQ==", "card_set"=>"S1 S2 S3 S4 S5 1 1", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 286ms (Views: 285.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 03:45:32 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"llPtAWfKDAHOBwYjNRziEuGWrY6HTl/gHc9Hx87krF3Q0mmR4obPWYgFZhLhp6UFlEXE1YIc9uM+Oa717siqSQ==", "card_set"=>"S1 S2 S3 S4 S5 1 1 ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.0ms)
+  Rendered cards/error.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 363ms (Views: 361.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:40 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:41 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:41 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:42 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:42 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:42 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:45:59 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:00 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:00 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:01 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:30 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:30 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:40 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:46:40 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:52:38 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:52:39 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:58:17 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:58:17 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:58:18 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:58:18 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:58:19 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:59:53 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:59:54 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 03:59:54 +0000
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:01 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QGl9Ehu8iM2zMC7UpiFjstDFXqLpqhgvr0evh2WQ0wUG6PmCnvBLlfUyTuVymiSlpRY3+ez4sSyMsUa1RbzVEQ==", "card_set"=>"S1 S2 S3 S4 S5 1 1 ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (25.6ms)
+  Rendered cards/error.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 2633ms (Views: 2627.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:07 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YsA674SbI/+NEkczBbTIL2ACwkoDSDHDEkSFDN3ht2gkQb5/Adfgp8sQJwLRD484FdGrEQYamMAxsmw+/c2xfA==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.6ms)
+  Rendered cards/error.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 411ms (Views: 408.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:08 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ju2J7kM8ROckCpY+Lt6GU97FyaH+BAROVeXV12kS7U3IbA1+xnCHv2II9g/6ZcFEqxag+vtWrU12EzzlST7rWQ==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.5ms)
+  Rendered cards/error.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 285ms (Views: 283.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:09 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B1tYxXRSRnA13T51hH7oPu7EKxjjgbRzLqIYfgRl38hB2txV8R6FKHPfXkRQxa8pmxdCQ+bTHXANVPFMJEnZ3A==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 283ms (Views: 282.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:22 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jtcCzhP1eF6Neey2r3cDDZlHuuXYiO0Th8xMtaJAPl7IVoZelrm7Bst7jId7zEQa7JTTvt3aRBCkOqWHgmw4Sg==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.8ms)
+  Rendered cards/error.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 240ms (Views: 238.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:23 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4BKLo5BlHehMTtj/qxgAX0TQvnFY0j1x5+6TQ/PDpROmkw8zFSnesApMuM5/o0dIMQPXKl2AlHLEGHpx0++jBw==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 267ms (Views: 265.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:33 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qN5qK79jKfFC4yBH1eEPiAxbns5505AzX7J+RM42O07uX+67Oi/qqQThQHYBWkifeYj3lXyBOTB8RJd27ho9Wg==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (0.9ms)
+  Rendered cards/error.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 286ms (Views: 284.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:34 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"liAOPKupj8QWhPMX2616+OoK2Dx2ag9Qeydy9qKyYarQoYqsLuVMnFCGkyYPFj3vn9mxZ3M4plNY0ZvEgp5nvg==", "card_set"=>"S1 S2 S3 S4 S5  ", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/error.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 213ms (Views: 211.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:48 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (21.4ms)
+  Rendered cards/top.html.erb within layouts/application (36.2ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:49 +0000
+  [1m[35m (2.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/top.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 2111ms (Views: 2089.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1236ms (Views: 1215.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cards-1030852_1280.jpg"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:54 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5XoZrM7Twc0ttU+Nt1sOZKu1Klg+la9F/o0w75dUCfyj+508S58ClWu3L7xj4Elz3mZDAzvHBkbde9ndt3gP6A==", "card_set"=>"S1 S2 S3 S4 S5", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/result.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/result.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 269ms (Views: 267.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:00:56 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5L+U6SBJd3tNCUekv6WeYzu/hk9b3IATWWLeNbDUzKqiPhB5pQW0IwsLJ5VrHtl0TmzvFF6OKRB6lDcHkPjKvg==", "card_set"=>"S1 S2 S3 S4 S5  12", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/services/judge_service.rb:119:in `block in validate_card_set'
+app/services/judge_service.rb:115:in `validate_card_set'
+app/controllers/cards_controller.rb:10:in `check'
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:13 +0000
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (20.3ms)
+  Rendered cards/top.html.erb within layouts/application (34.4ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:14 +0000
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/top.html.erb within layouts/application (19.1ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:15 +0000
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.6ms)
+  Rendered cards/top.html.erb within layouts/application (21.7ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:15 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.5ms)
+  Rendered cards/top.html.erb within layouts/application (24.3ms)
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:15 +0000
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (3.0ms)
+  Rendered cards/top.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 1620ms (Views: 1596.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1766ms (Views: 1736.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1934ms (Views: 1904.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3442ms (Views: 3423.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2366ms (Views: 2343.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:17 +0000
+Processing by CardsController#top as HTML
+  Rendering cards/top.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.2ms)
+  Rendered cards/top.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 328ms (Views: 312.5ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/cards-1030852_1280.jpg"):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.4.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.4.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:20 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vBu0NhHX83zpXDmpxaCTCN9gUbVxvNo1aWFjjLZGDJH6mjCmlJswJK9eWZgRG9QfqrM47nTuczZKl4q+lmoKhQ==", "card_set"=>"S1 S2 S3 S4 S5 121", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.7ms)
+  Rendered cards/error.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 292ms (Views: 289.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/cards/check" for 172.18.0.1 at 2020-03-16 04:02:23 +0000
+Processing by CardsController#check as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DE3gg63R74v83ypWj8Nmj/IJvFi0kkDUbgAQIxlrBqhKzGQTKJ0s07rdSmdbeCGYh9rVA7HA6ddN9vkROUcAvA==", "card_set"=>"S1 S2 S3 S4 S5 121 werq", "commit"=>"Check"}
+Unpermitted parameters: :utf8, :authenticity_token, :commit
+  Rendering cards/error.html.erb within layouts/application
+  Rendered cards/_form.html.erb (1.1ms)
+  Rendered cards/error.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 313ms (Views: 311.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 04:02:35 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 04:02:38 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 04:02:39 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 04:02:39 +0000
+Started POST "/api/v1/cards/check" for 172.18.0.1 at 2020-03-16 04:02:45 +0000

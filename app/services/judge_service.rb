@@ -105,19 +105,23 @@ module JudgeService
 
         validate :validate_card_set
 
+
         def validate_card_set
+            @err_msg = []
             if card_set.blank?
                 errors[:base] << ERR_MSG
-                @err_msg = ERR_MSG
+                @err_msg << ERR_MSG
             elsif card_set.match(VALID_REGEX).nil?
                 rgx_set = card_set.split.reject{|r|r.match(/\A[SHDC]([1-9]|1[0-3])\z/)}
-                rgx_idx = card_set.split.index(rgx_set[0]).to_i + 1
-                errors[:base] << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[0] } )"
-                errors[:base] << ERR_MSG
-                @err_msg = " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[0] } )" +  ERR_MSG
+                (0..rgx_set.length-1).each do |i|
+                    rgx_idx = card_set.split.index(rgx_set[i]).to_i + 1
+                    errors[:base] << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[i] } )"
+                    errors[:base] << ERR_MSG
+                    @err_msg << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[i] } )" +  ERR_MSG
+                end
             elsif card_set.split.size > card_set.split.uniq.size
                 errors[:base] << IDENTICAL_ERR
-                @err_msg = IDENTICAL_ERR
+                @err_msg << IDENTICAL_ERR
             end
         end
     end
