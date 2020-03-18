@@ -1,17 +1,26 @@
-module JudgeService 
+module JudgeService
     class JudgeCard
         include ActiveModel::Model
         require 'constants_service'
         include ConstantsService
-        attr_accessor :card_set, :best
-        attr_reader :hand, :cards, :strength, :result, :hashed_result, :err_msg
+        attr_accessor :card_set, :best, :cards
+        attr_reader :hand, :strength, :result
+
+        @@cards = Array.new
+        @@cards = []
+        def initialize(class_card)
+            @@cards << class_card
+        end
+        def self.cards
+            @@cards
+        end
 
         def judge_role
             # card_setをカード毎に配列の要素として分割
-            @cards = card_set.split(" ")
+            cards = card_set.split(" ")
             suits = []
             numbers = []
-            @cards.each do |card|
+            cards.each do |card|
                 suits << card[0]
                 numbers << card[1..-1].to_i
             end
@@ -78,24 +87,21 @@ module JudgeService
                 end
             end
         end
+
         validate :validate_card_set
 
         def validate_card_set
-            # @err_msg = []
             if card_set.blank?
                 errors[:base] << ERR_MSG
-                # @err_msg << ERR_MSG
             elsif card_set.match(VALID_REGEX).nil?
                 rgx_set = card_set.split.reject{|r|r.match(/\A[SHDC]([1-9]|1[0-3])\z/)}
                 (0..rgx_set.length-1).each do |i|
                     rgx_idx = card_set.split.index(rgx_set[i]).to_i + 1
                     errors[:base] << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[i] } )"
                     errors[:base] << ERR_MSG
-                    # @err_msg << " #{ rgx_idx } " + INDEX_ERR_MSG + "(#{ rgx_set[i] } )" +  ERR_MSG
                 end
             elsif card_set.split.size > card_set.split.uniq.size
                 errors[:base] << IDENTICAL_ERR
-                # @err_msg << IDENTICAL_ERR
             end
         end
     end
