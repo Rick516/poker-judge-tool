@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AppName</title>
+    <title>Poker Judge Tool</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,25 @@
   </head>
 
   <body>
-    <%= yield %>
-  </body>
-</html>
+  　<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Judge Tool</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+      <i class="far fa-3x fa-hand-lizard fa-flip-horizontal"></i>
+      <h1>Poker Judge Tool</h1>
+      <i class="far fa-3x fa-hand-lizard"></i>
+    </div>
+    <div class="contents">
+      <%= yield %>
+    </div>
+    <div class="footer">
+      <small>©︎Copyright 2020 poker-judge-tool All Rights Reserved.</small>
+    </div>
+</div>
+</body>
